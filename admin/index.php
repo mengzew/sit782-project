@@ -72,7 +72,7 @@ session_start();
             <nav class="navbar navbar-inverse">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="#">Open Access Cardiac</a>
+                  <a class="navbar-brand" href="index.php">Open Access Cardiac</a>
                 </div>
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Monitor</a></li>
@@ -331,7 +331,7 @@ session_start();
            
             <div class="col-md-12">
                 
-                <table class="table">
+                <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
                         <th>Name</th>

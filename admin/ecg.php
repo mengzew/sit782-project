@@ -76,7 +76,7 @@ session_start();
             <nav class="navbar navbar-inverse">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="#">Open Access Cardiac</a>
+                  <a class="navbar-brand" href="index.php">Open Access Cardiac</a>
                 </div>
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Monitor</a></li>
@@ -140,34 +140,83 @@ session_start();
             
         <div class="row">
             <div class="col-md-12">
-            
-            <div class="col-md-8">
-            <div class="ecg-animate">
-                <h3>ECG</h3>
-                
-                	<!-- Placeholder for the ECG chart -->
-	<div class="jke-ecgChart"></div>
-
-	<!-- Include dependencies -->
-	<script src="js/lib/jquery.min.js"></script>
-	<script src="js/lib/jquery-ui-widget.min.js"></script>
-	<script src="js/lib/d3.min.js"></script>
-
-	<!-- Include jke-d3-ecg and initialize the chart -->
-	<script src="js/jke-d3-ecg.min.js"></script>
-	<script>
-		$('.jke-ecgChart').ecgChart();
-	</script>
-    	
-
-	<!-- Include a data source to feed the ECG chart with data -->
-	<!-- In a real application this should probably be done using a WebSocket -->
-	<script src="js/datasource.js"></script>  
+                <div class="col-md-4 table-bordered ecg-table">
+                <table class="table">
+                <thead>
+                    <tr>
+                        <th><a class="trigger" href="ecg.php">HRR%</a></th>
+                        <th>51% up</th>
+                    </tr>
+                </thead>    
+                    <tr>
+                        <td>Dose</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Km</td>
+                        <td>75</td>
+                    </tr>
+                    <tr>
+                        <td>Km/h</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Time</td>
+                        <td>0</td>
+                    </tr>
+                </table>
             </div>
-            </div>
+                <div class="col-md-8">
+                <div class="ecg-animate">
+                    <h3>ECG</h3>
+                    
+                    	<!-- Placeholder for the ECG chart -->
+                    	<div class="jke-ecgChart"></div>
+                    
+                    	<!-- Include dependencies -->
+                    	<script src="js/lib/jquery.min.js"></script>
+                    	<script src="js/lib/jquery-ui-widget.min.js"></script>
+                    	<script src="js/lib/d3.min.js"></script>
+                    
+                    	<!-- Include jke-d3-ecg and initialize the chart -->
+                    	<script src="js/jke-d3-ecg.min.js"></script>
+                    	<script>
+                    		$('.jke-ecgChart').ecgChart();
+                    	</script>
+                        	
+                    
+                    	<!-- Include a data source to feed the ECG chart with data -->
+                    	<!-- In a real application this should probably be done using a WebSocket -->
+                    	<script src="js/datasource.js"></script>  
+                </div>
+                </div>
            
-        </div>
-</div>
+            </div>
+         </div>
+         
+         <div class="row">
+            
+            <div class="col-md-6">
+            
+                <h4>SYMPTOMS, ECG</h4>
+                <p>Angina-mild, barely noticable</p>
+            
+            </div>
+            
+            <div class="col-md-6">
+            
+                 <h4>COMMENTS</h4>
+                 <p>05:07 Hi NAME, you’ve warmed up well this morning, and your heart
+                  and muscles will be primed to increase the intensity level. We’re aiming
+                  to stay at 50 to 55% HRR for the next 40 minutes, so let’s increase your
+                   speed a little bit more. Great work, go for it!</p>
+                   
+                 <p>Hi NAME, you’re working at 53% HRR so…</p>  
+            
+            
+            </div>
+         
+         </div>
 
         
 
