@@ -136,7 +136,9 @@ session_start();
             
         <div class="row">
             <div class="col-md-12">
-            <div class="col-md-4 table-box">
+           
+            <div class="col-md-4 table-box table-bordered">
+             <h4>Patient Data</h4>
                 <table class="table">
                 <thead>
                     <tr>
@@ -145,7 +147,7 @@ session_start();
                     </tr>
                 </thead>    
                     <tr>
-                        <td>Dose</td>
+                        <td><a class="trigger" href="dose.php">Dose</a></td>
                         <td>100</td>
                     </tr>
                     <tr>
@@ -422,10 +424,6 @@ session_start();
             </div>
         
         </div>
-
-
-
-
 
       
         
