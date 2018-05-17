@@ -2,6 +2,9 @@ body{
      font-family: Verdana, Arial, sans-serif;
     
 }
+h4{
+    font-weight:bold;
+}
 .row{
     margin-top:10px;
     margin-bottom:10px;
@@ -43,6 +46,13 @@ body{
   .ecg-table{
     margin-top:60px;
   }
+  
+  .dose-graph{
+    margin-bottom: 20px;
+  }
+#dose-data-wrapper{
+    margin-top:30px;
+}  
 
 /* Add a black background color to the top navigation */
 .dashboard-nav {
