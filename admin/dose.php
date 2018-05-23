@@ -236,14 +236,14 @@ session_start();
              <div class="col-md-4">
             
                  <h4>COACHING MESSAGES</h4>
-                 <p>00:45 Good morning NAME, great to see you out there! Let’s start with 5 minutes at 40% HRR to warm-up,
-                  then our target will be 40 minutes at 50 to 55% HRR, and we’ll finish off with a 5 minute cool-down. Let’s get started!</p>
+                 <p>00:45 Good morning NAME, great to see you out there! Letâ€™s start with 5 minutes at 40% HRR to warm-up,
+                  then our target will be 40 minutes at 50 to 55% HRR, and weâ€™ll finish off with a 5 minute cool-down. Letâ€™s get started!</p>
 
-                <p>05:07 Hi NAME, you’ve warmed up well this morning, and your heart and muscles will be primed to increase
-                 the intensity level. We’re aiming to stay at 50 to 55% HRR for the next 40 minutes, so let’s increase your
+                <p>05:07 Hi NAME, youâ€™ve warmed up well this morning, and your heart and muscles will be primed to increase
+                 the intensity level. Weâ€™re aiming to stay at 50 to 55% HRR for the next 40 minutes, so letâ€™s increase your
                   speed a little bit more. Great work, go for it!</p>
 
-                <p>14:58 Hi NAME, you’re working at 53% HRR so…</p>
+                <p>14:58 Hi NAME, youâ€™re working at 53% HRR soâ€¦</p>
 
                 
             </div>
